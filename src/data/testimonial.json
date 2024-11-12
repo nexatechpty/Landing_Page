@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "image": "images/about/ab-5-1.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-1.jpg",
+    "name": "William Benjm",
+    "designation": "IT Customer",
+    "text": "Lorem ipsum, or lipsum as it is some times known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter."
+  },
+  {
+    "id": "2",
+    "image": "images/about/ab-5-2.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-2.jpg",
+    "name": "Jerzzy Lamot",
+    "designation": "UI Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exerci"
+  },
+  {
+    "id": "3",
+    "image": "images/about/ab-5-3.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-3.jpg",
+    "name": "Vivi Marian",
+    "designation": "SEO Customer",
+    "text": "The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was"
+  },
+  {
+    "id": "4",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  }
+]

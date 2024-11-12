@@ -1,0 +1,58 @@
+[
+  {
+    "bgImage": "images/shape/price-bg-shape-1-1.png",
+    "title": "Basic Plan",
+    "price": "$29.99",
+    "duration": "monthly",
+    "path": "/contact",
+    "features": [
+      "Ad Management",
+      "Live Chat",
+      "Multi-Language Content",
+      "Conversational Bots",
+      "Programmable Chatbots"
+    ]
+  },
+  {
+    "bgImage": "images/shape/price-bg-shape-1-1.png",
+    "title": "Silver Plan",
+    "price": "$39.99",
+    "duration": "anually",
+    "path": "/contact",
+    "features": [
+      "Ad Management",
+      "Live Chat",
+      "Multi-Language Content",
+      "Conversational Bots",
+      "Programmable Chatbots"
+    ]
+  },
+  {
+    "bgImage": "images/shape/price-bg-shape-1-1.png",
+    "title": "Gold Plan",
+    "price": "$59.99",
+    "duration": "yearly",
+    "path": "/contact",
+    "features": [
+      "Ad Management",
+      "Live Chat",
+      "Multi-Language Content",
+      "Conversational Bots",
+      "Programmable Chatbots"
+    ]
+  },
+  {
+    "bgImage": "images/shape/price-bg-shape-1-1.png",
+    "title": "VIP Plan",
+    "price": "$29.99",
+    "duration": "lifetime",
+    "path": "/contact",
+    "features": [
+      "Ad Management",
+      "Live Chat",
+      "Multi-Language Content",
+      "Conversational Bots",
+      "Programmable Chatbots"
+    ]
+  }
+]

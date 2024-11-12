@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "path": "/service-details",
+    "image": "images/service/sr-3-1.jpg",
+    "icon": "images/icon/sr-icon-3-1.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Cloud Services",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  },
+  {
+    "id": "2",
+    "path": "/service-details",
+    "image": "images/service/sr-3-2.jpg",
+    "icon": "images/icon/sr-icon-3-2.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Web Development",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  },
+  {
+    "id": "3",
+    "path": "/service-details",
+    "image": "images/service/sr-3-3.jpg",
+    "icon": "images/icon/sr-icon-3-3.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "IT Management",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  },
+  {
+    "id": "4",
+    "path": "/service-details",
+    "image": "images/service/sr-3-4.jpg",
+    "icon": "images/icon/sr-icon-3-4.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Software Services",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  },
+  {
+    "id": "5",
+    "path": "/service-details",
+    "image": "images/service/sr-3-5.jpg",
+    "icon": "images/icon/sr-icon-3-5.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Machine Learning",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  },
+  {
+    "id": "6",
+    "path": "/service-details",
+    "image": "images/service/sr-3-6.jpg",
+    "icon": "images/icon/sr-icon-3-6.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Business Analycis",
+    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+  }
+]

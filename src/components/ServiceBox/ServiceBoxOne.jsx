@@ -12,7 +12,7 @@ const ServiceBoxOne = ({ bgImage, icon, title, text, path, className }) => (
       <img src={icon} alt="serviceicon" />
     </div>
     <h3 className="service-title h5">
-      <Link to={path}>{title}</Link>
+      <Link>{title}</Link>
     </h3>
     <p className="service-text">{text}</p>
     {/* <Button path={path} className="style3">Read More<i className="far fa-long-arrow-right"/></Button> */}

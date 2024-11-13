@@ -45,15 +45,12 @@ input:focus {
 	box-shadow: none;
 }
 
-
+img:not([draggable]),
 embed,
 object,
 video {
 	max-width: 100%;
 	height: auto;
-}
-.header-logo:not([draggable]){
-	max-width: 20%;
 }
 ul {
 	list-style-type: disc;

@@ -54,8 +54,8 @@ const HeaderFour = () => (
       <div className="container">
         <div className="menu-area">
           <div className="row align-items-center justify-content-between">
-            <div className="col-auto">
-              <Logo image="images/nexatech_logo.png" />
+            <div className="col-auto align-items-center">
+              <Logo image="images/nexatech_logo.png" className="header-logo" />
             </div>
             <div className="col-auto">
               <MainMenu className="menu-style3 d-none d-lg-block" />

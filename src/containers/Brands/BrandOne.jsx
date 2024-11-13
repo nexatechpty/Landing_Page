@@ -1,8 +1,7 @@
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 
-const BrandOne = ({...restProps})=> {
-
+const BrandOne = ({ ...restProps }) => {
   const settings = {
     autoplay: true,
     autoplaySpeed: 8000,
@@ -14,21 +13,21 @@ const BrandOne = ({...restProps})=> {
     responsive: [
       {
         breakpoint: 992,
-        settings: {          
+        settings: {
           slidesToShow: 3,
-        }
+        },
       },
       {
         breakpoint: 767,
-        settings: {          
+        settings: {
           slidesToShow: 2,
-        }
-      }
-    ]
-  }; 
-  
+        },
+      },
+    ],
+  };
+
   return (
-    <div {...restProps}>    
+    <div {...restProps}>
       <div className="container">
         <div className="sec-line-wrap">
           <div className="sec-line"></div>
@@ -36,16 +35,34 @@ const BrandOne = ({...restProps})=> {
           <div className="sec-line"></div>
         </div>
         <Slider className="row text-center" {...settings}>
-          <div><img src="images/brand/br-1-1.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-2.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-3.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-4.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-5.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-6.png" alt="brands"/></div>
+          <div className="row text-center">
+            <img src="images/brand/nayvee_tech_logo.png" alt="Nayvee Tech" />
+          </div>
+          <div className="row text-center">
+            <img
+              src="images/brand/mechatecs_logo.webp"
+              alt="Mechatecs Mining and Engeenering"
+            />
+          </div>
+          <div className="row text-center">
+            <img
+              src="images/brand/webton_logo_nobg_img.webp"
+              alt="Webton Projects"
+            />
+          </div>
+          <div className="row text-center">
+            <img src="images/brand/mq-lo-nbg.png" alt="MQ Petroleum" />
+          </div>
+          <div className="row text-center">
+            <img
+              src="images/brand/nayvee_logo_ icon_nobg.png"
+              alt="Nayvee Chat"
+            />
+          </div>
         </Slider>
       </div>
     </div>
   );
-}
+};
 
 export default BrandOne;

@@ -7,8 +7,8 @@ import {
   TeamTwo,
   TestimonialThree,
   CtaOne,
-  BlogFour,
-  FooterOne,
+  // BlogFour,
+  // FooterOne,
   FooterThree,
 } from "../containers";
 

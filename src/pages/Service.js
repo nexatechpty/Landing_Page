@@ -5,7 +5,7 @@ import {
   CtaOne,
   ProcessThree,
   TestimonialOne,
-  FooterOne,
+  // FooterOne,
   HeaderFour,
   FooterThree,
 } from "../containers";

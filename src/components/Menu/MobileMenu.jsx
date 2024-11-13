@@ -1,11 +1,10 @@
-import React, { Fragment, useState , useRef} from "react";
-import Logo from '../Logo/Logo';
-import MenuItem from './MenuItem';
-import menuLinks from '../../data/MenuLinks.json';
-import { getClosest, slideUp } from '../../utils/utils';
+import React, { Fragment, useState, useRef } from "react";
+import Logo from "../Logo/Logo";
+import MenuItem from "./MenuItem";
+import menuLinks from "../../data/MenuLinks.json";
+import { getClosest, slideUp } from "../../utils/utils";
 
-
-const MobileMenu = ()=> {
+const MobileMenu = () => {
   const menuParent = useRef(null);
 
   const [menuOption, setMenuOption] = useState(false);
@@ -29,19 +28,28 @@ const MobileMenu = ()=> {
 
   return (
     <Fragment>
-      <button type="button" onClick={menuOpenHandler} className="vs-menu-toggle d-inline-block d-lg-none">
+      <button
+        type="button"
+        onClick={menuOpenHandler}
+        className="vs-menu-toggle d-inline-block d-lg-none"
+      >
         <i className="far fa-bars"></i>
       </button>
-      <div ref={menuParent} className={`vs-menu-wrapper ${menuOption ? "vs-body-visible" : ""}`}>
+      <div
+        ref={menuParent}
+        className={`vs-menu-wrapper ${menuOption ? "vs-body-visible" : ""}`}
+      >
         <div className="vs-menu-area text-center">
           <button className="vs-menu-toggle" onClick={menuCloseHandler}>
             <i className="fal fa-times"></i>
           </button>
-          <div className="mobile-logo">{<Logo image="images/logo.png" />}</div>
+          <div className="mobile-logo">
+            {<Logo image="images/nexatech_logo.png" />}
+          </div>
           <div className="vs-mobile-menu">
             <ul>
               {menuLinks.map((item, index) => (
-                <MenuItem key={index} item={item} toggle/>
+                <MenuItem key={index} item={item} toggle />
               ))}
             </ul>
           </div>
@@ -49,20 +57,9 @@ const MobileMenu = ()=> {
       </div>
     </Fragment>
   );
-}
-
+};
 
 export default MobileMenu;
-
-
-
-
-
-
-
-
-
-
 
 // <ul>
 //   <li className="menu-item-has-children">

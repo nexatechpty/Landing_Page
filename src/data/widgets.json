@@ -67,10 +67,6 @@
     {
       "name": "Contact Us",
       "path": "/contact"
-    },
-    {
-      "name": "Privacy Policy",
-      "path": "/"
     }
   ],
   "exploreLinks": [
@@ -81,10 +77,6 @@
     {
       "name": "Our Story",
       "path": "/about"
-    },
-    {
-      "name": "Latest Posts",
-      "path": "/blog"
     },
     {
       "name": "Help Center",

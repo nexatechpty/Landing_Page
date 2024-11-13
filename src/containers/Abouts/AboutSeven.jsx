@@ -29,13 +29,13 @@ const AboutSeven = () => (
             <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
               <div className="col-sm-auto">
                 <p className="author-degi">Sales Assistant \</p>
-                <h3 className="h5 author-name">Yamukelwa Msimango</h3>
+                <h3 className="h5 author-name">Call To Ask Any Queary</h3>
               </div>
               <div className="col-sm-auto">
                 <InfoMedia
                   className="about-call"
                   icon="fas fa-phone-alt"
-                  title="Call To Ask Any Queary"
+                  title=""
                   info={<a href="tel:+25821562154">(+27) 64 704 5825</a>}
                 />
               </div>

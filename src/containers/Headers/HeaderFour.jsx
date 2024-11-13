@@ -41,13 +41,13 @@ const HeaderFour = () => (
         </List>
       </HeaderTop.Left>
       <HeaderTop.Right>
-        <IconLink className="header-social style-white" title="Follow Us On:">
+        {/* <IconLink className="header-social style-white" title="Follow Us On:">
           <IconLink.Item icon="fab fa-facebook-f" path="/" />
           <IconLink.Item icon="fab fa-twitter" path="/" />
           <IconLink.Item icon="fab fa-instagram" path="/" />
           <IconLink.Item icon="fab fa-behance" path="/" />
           <IconLink.Item icon="fab fa-youtube" path="/" />
-        </IconLink>
+        </IconLink> */}
       </HeaderTop.Right>
     </HeaderTop>
     <HeaderSticky>

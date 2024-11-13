@@ -56,7 +56,7 @@ const TeamThree = ({ className }) => {
           <TeamBoxOne
             path="/team-details"
             name="Nigel Mafuta"
-            desgination="Co-Founder & VP of Engineering"
+            desgination="Co-Founder & CTO"
             image="images/team/nigel.jpeg"
             className="layout2"
           />

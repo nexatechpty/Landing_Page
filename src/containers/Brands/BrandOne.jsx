@@ -51,7 +51,7 @@ const BrandOne = ({ ...restProps }) => {
             />
           </div>
           <div className="row text-center">
-            <img src="images/brand/mq-lo-nbg.png" alt="MQ Petroleum" />
+            <img src="images/brand/melsoft-logo.png" alt="MQ Petroleum" />
           </div>
           <div className="row text-center">
             <img

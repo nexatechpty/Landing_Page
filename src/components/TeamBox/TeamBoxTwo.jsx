@@ -29,9 +29,7 @@ const TeamBoxOne = ({ path, desgination, image, name }) => (
     </div>
     <div className="team-content">
       <h3 className="team-title h5">
-        <Link className="text-inherit" to={path}>
-          {name}
-        </Link>
+        <Link className="text-inherit">{name}</Link>
       </h3>
       <p className="team-degi">{desgination}</p>
     </div>

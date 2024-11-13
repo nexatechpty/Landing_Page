@@ -13,7 +13,7 @@ import {
   ProcessTwo,
   TestimonialTwo,
   BrandOne,
-  BlogFive,
+  // BlogFive,
   FooterThree,
 } from "../containers";
 
@@ -35,7 +35,7 @@ const HomeThree = () => (
       className="space background-image"
       style={{ backgroundImage: "url(images/bg/brand-bg-2-2.jpg)" }}
     />
-    <BlogFive className="space-top space-extra-bottom" />
+    {/* <BlogFive className="space-top space-extra-bottom" /> */}
     <FooterThree />
     <ScrollTopBtn />
   </Fragment>

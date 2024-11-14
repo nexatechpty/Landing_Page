@@ -9,14 +9,12 @@ const ProjectBoxTwo = ({ image, title, path }) => (
     </div>
     <div className="project-content">
       <h3 className="project-title h6">
-        <Link className="text-inherit" to={path}>
-          {title}
-        </Link>
+        <Link className="text-inherit">{title}</Link>
       </h3>
-      <Button path={path} className="style3">
+      {/* <Button className="style3">
         View Details
         <i className="far fa-arrow-right" />
-      </Button>
+      </Button> */}
     </div>
   </div>
 );

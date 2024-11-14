@@ -80,9 +80,9 @@ const HeroThree = () => {
                           {slide.btn.text}
                           <i className="far fa-long-arrow-right" />
                         </Button>
-                        <PlayBtn path={slide.playBtn.path} className="style5">
+                        {/* <PlayBtn path={slide.playBtn.path} className="style5">
                           <i className={slide.playBtn.icon} />
-                        </PlayBtn>
+                        </PlayBtn> */}
                       </div>
                     </div>
                   </div>

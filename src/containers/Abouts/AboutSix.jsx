@@ -123,10 +123,10 @@ const AboutSix = ({ className }) => {
                           </List.Item>
                         ))}
                       </List>
-                      <Button path={item.path}>
+                      {/* <Button path={item.path}>
                         {item.btntext}
                         <i className="far fa-arrow-right" />
-                      </Button>
+                      </Button> */}
                     </div>
                   </div>
                 </div>

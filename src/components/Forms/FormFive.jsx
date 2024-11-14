@@ -10,15 +10,22 @@ const FormFive = () => {
   });
   const [status, setStatus] = useState(null);
 
+  // Update form data state on input change
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Submit form data to serverless function
   const formHandle = async (event) => {
     event.preventDefault();
 
+    const endpoint =
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:8888/.netlify/functions/sendEmail"
+        : "/.netlify/functions/sendEmail";
+
     try {
-      const response = await fetch("/.netlify/functions/sendEmail", {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -26,7 +33,7 @@ const FormFive = () => {
 
       if (response.ok) {
         setStatus("Message sent successfully!");
-        setFormData({ name: "", email: "", subject: "", message: "" });
+        setFormData({ name: "", email: "", subject: "", message: "" }); // Clear form fields
       } else {
         setStatus("Failed to send message.");
       }

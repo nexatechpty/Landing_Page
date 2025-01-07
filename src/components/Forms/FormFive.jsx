@@ -23,10 +23,7 @@ const FormFive = () => {
     setLoading(true);
     setStatus(null); // Clear previous status message
 
-    const endpoint =
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:8888/.netlify/functions/sendEmail"
-        : "/.netlify/functions/sendEmail";
+    const endpoint = "http://localhost:3001/submit";
 
     try {
       const response = await fetch(endpoint, {

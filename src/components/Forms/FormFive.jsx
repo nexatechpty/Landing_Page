@@ -23,7 +23,7 @@ const FormFive = () => {
     setLoading(true);
     setStatus(null); // Clear previous status message
 
-    const endpoint = "http://localhost:3001/submit";
+    const endpoint = "https://nexatech-server.onrender.com/submit";
 
     try {
       const response = await fetch(endpoint, {

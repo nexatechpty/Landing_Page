@@ -36,8 +36,8 @@ app.post(
     // Message to send to Nexatech email
     const htmlMsg = `
     <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.5; max-width: 600px; margin: auto; padding: 15px; background-color: #fafafa;">
-    <div style="text-align: center; margin-bottom: 15px;">
-        <img src="http://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
+      <div style="text-align: center; margin-bottom: 15px;">
+        <img src="https://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
       </div>
       <h1 style="color: #004080; text-align: center; margin-bottom: 15px;">New Request</h1>
             <p style="font-size: 1rem; margin: 8px 0;"><strong>Subject:</strong> ${subject}</p>
@@ -58,7 +58,7 @@ app.post(
     const nexatechMessage = `
     <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.5; max-width: 600px; margin: auto; padding: 15px; background-color: #fafafa;">
       <div style="text-align: center; margin-bottom: 15px;">
-        <img src="http://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
+        <img src="https://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
       </div>
       <h1 style="color: #004080; text-align: center; margin-bottom: 15px;">Thank You for Reaching Out!</h1>
       <p style="font-size: 1rem; margin: 8px 0; text-align: justify;">

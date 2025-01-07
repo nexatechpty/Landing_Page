@@ -82,19 +82,16 @@ app.post(
       </p>
       <hr style="border: none; border-top: 1px solid #ddd; margin: 15px 0;">
       <div style="text-align: center; margin: 10px 0;">
-        <a href="https://www.facebook.com/nexatech" style="margin: 0 5px;">
+        <a href="https://www.facebook.com/profile.php?id=61568964744778" style="margin: 0 5px;">
           <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width: 24px; height: 24px;">
         </a>
-        <a href="https://www.instagram.com/nexatech" style="margin: 0 5px;">
+        <a href="https://www.instagram.com/_nexatech?igsh=bzlrZHV6MHNudnE=" style="margin: 0 5px;">
           <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="width: 24px; height: 24px;">
         </a>
-        <a href="https://www.linkedin.com/company/nexatech" style="margin: 0 5px;">
+        <a href="https://www.linkedin.com/company/nexatechh" style="margin: 0 5px;">
           <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" style="width: 24px; height: 24px;">
         </a>
-        <a href="https://twitter.com/nexatech" style="margin: 0 5px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" style="width: 24px; height: 24px;">
-        </a>
-        <a href="https://www.tiktok.com/@nexatech" style="margin: 0 5px;">
+        <a href="https://www.tiktok.com/@nayveetech" style="margin: 0 5px;">
           <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" style="width: 24px; height: 24px;">
         </a>
       </div>

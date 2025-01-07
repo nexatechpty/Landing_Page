@@ -7,10 +7,12 @@ require("dotenv").config();
 const cors = require("cors");
 const port = process.env.PORT || 3001;
 
-app.use(
-  cors({ origin: ["https://www.nexatech.co.za", "http://localhost:3000"] })
-);
+app.use(cors({ origin: ["https://www.nexatech.co.za"] }));
 app.use(bodyParser.json());
+
+app.get("/test", (req, res) => {
+  res.json({ message: "API is working" });
+});
 
 app.post(
   "/submit",

@@ -7,7 +7,7 @@ require("dotenv").config();
 const cors = require("cors");
 const port = process.env.PORT || 3001;
 
-app.use(cors({ origin: ["https://nexatech.co.za/"] }));
+app.use(cors({ origin: "https://nexatech.co.za" }));
 app.use(bodyParser.json());
 
 app.get("/test", (req, res) => {

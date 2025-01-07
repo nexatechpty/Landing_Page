@@ -117,7 +117,7 @@ app.post(
     try {
       // Transport nodemailer function to send email to Nexatech email
       await transporter.sendMail({
-        from: `Nexatech Website <nigel@nexatech.co.za>`,
+        from: `Nexatech Website <info@nexatech.co.za>`,
         to: "info@nexatech.co.za, nigel@nexatech.co.za, siya@nexatech.co.za, prosper@nexatech.co.za",
         subject: subject,
         html: htmlMsg,
@@ -125,7 +125,7 @@ app.post(
 
       // Transport nodemailer function to send auto reply email to user
       await transporter.sendMail({
-        from: `Nexatech <nigel@nexatech.co.za>`,
+        from: `Nexatech <info@nexatech.co.za>`,
         to: email,
         subject: "Message Received",
         html: nexatechMessage,

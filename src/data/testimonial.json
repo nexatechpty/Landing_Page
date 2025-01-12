@@ -6,7 +6,7 @@
     "avater": "images/testimonial/william.jpeg",
     "name": "William Benjm",
     "designation": "IT Customer",
-    "text": "NexaTech provided exceptional support during our project. Their innovative solutions and dedication helped us achieve our goals seamlessly."
+    "text": "Codespere provided exceptional support during our project. Their innovative solutions and dedication helped us achieve our goals seamlessly."
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "avater": "images/testimonial/jerzzy.jpeg",
     "name": "Jerzzy Lamot",
     "designation": "UI Customer",
-    "text": "The team at NexaTech transformed our user interface. Their attention to detail and creativity made all the difference in our final product."
+    "text": "The team at Codespere transformed our user interface. Their attention to detail and creativity made all the difference in our final product."
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "avater": "images/testimonial/vivi.jpeg",
     "name": "Vivi Marian",
     "designation": "SEO Customer",
-    "text": "Thanks to NexaTech's SEO strategies, our visibility skyrocketed. Their expertise is unmatched in the tech industry."
+    "text": "Thanks to Codespere's SEO strategies, our visibility skyrocketed. Their expertise is unmatched in the tech industry."
   },
   {
     "id": "4",
@@ -33,6 +33,6 @@
     "avater": "images/testimonial/peter.jpeg",
     "name": "Peter Parker",
     "designation": "WP Developer",
-    "text": "NexaTech's commitment to quality and timely delivery exceeded my expectations. They are true partners in our development journey."
+    "text": "Codespere's commitment to quality and timely delivery exceeded my expectations. They are true partners in our development journey."
   }
 ]

@@ -31,7 +31,7 @@ const AboutFive = ({ ...restProps }) => (
             className="exp-media"
             number="2"
             title="Years Experience"
-            info="At NexaTech, we specialize in crafting tailored technology solutions that propel businesses forward. Our expertise spans web development, cloud services, IT management, and machine learning, allowing us to meet the diverse needs of our clients. We blend innovation with practical insights, ensuring each solution is both cutting-edge and highly functional. "
+            info="At Codespere, we specialize in crafting tailored technology solutions that propel businesses forward. Our expertise spans web development, cloud services, IT management, and machine learning, allowing us to meet the diverse needs of our clients. We blend innovation with practical insights, ensuring each solution is both cutting-edge and highly functional. "
           />
           <List className="list-style1">
             <List.Item>

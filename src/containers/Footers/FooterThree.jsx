@@ -39,7 +39,7 @@ const FooterThree = () => (
               title="Contact Us"
               info={
                 <>
-                  <a href="mailto:info@nexatech.co.za">info@nexatech.co.za</a>
+                  <a href="mailto:info@codespere.co.za">info@codespere.co.za</a>
                   <br />
                   <a href="tel:+27647045825">(+27) 64 704 5825</a>
                 </>
@@ -116,9 +116,9 @@ const FooterThree = () => (
     <div className="copyright-wrap">
       <div className="container">
         <p className="copyright-text">
-          Copyright <i className="fal fa-copyright" /> 2024{" "}
+          Copyright <i className="fal fa-copyright" /> 2025{" "}
           <Link className="text-white" to="/">
-            NexaTech
+            Codespere
           </Link>
           . All rights reserved.
         </p>

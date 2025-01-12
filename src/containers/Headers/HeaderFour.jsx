@@ -36,7 +36,7 @@ const HeaderFour = () => (
           </List.Item>
           <List.Item>
             <i className="far fa-envelope" />
-            <a href="mailto:info@nexatech.co.za">info@nexatech.co.za</a>
+            <a href="mailto:info@codespere.co.za">info@codespere.co.za</a>
           </List.Item>
         </List>
       </HeaderTop.Left>
@@ -55,7 +55,7 @@ const HeaderFour = () => (
         <div className="menu-area">
           <div className="row align-items-center justify-content-between">
             <div className="col-auto align-items-center">
-              <Logo image="images/nexatech_logo.png" className="header-logo" />
+              <Logo image="images/codespere_logo.jpg" className="header-logo" />
             </div>
             <div className="col-auto">
               <MainMenu className="menu-style3 d-none d-lg-block" />

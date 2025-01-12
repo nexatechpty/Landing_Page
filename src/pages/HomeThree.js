@@ -19,7 +19,7 @@ import {
 
 const HomeThree = () => (
   <Fragment>
-    <Seo title="NexaTech" />
+    <Seo title="Codespere" />
     <HeaderFour />
     <HeroThree />
     <ServiceThree className="space-top space-extra-bottom" />

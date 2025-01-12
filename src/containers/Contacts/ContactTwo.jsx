@@ -46,8 +46,8 @@ const ContactTwo = ({ ...restProps }) => (
                     info={
                       <>
                         <a href="tel:+27647045825">+(27) 647045825</a>
-                        <a href="mailto:info@nexatech.co.za">
-                          info@nexatech.co.za
+                        <a href="mailto:info@codespere.co.za">
+                          info@codespere.co.za
                         </a>
                       </>
                     }

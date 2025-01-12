@@ -7,7 +7,7 @@ require("dotenv").config();
 const cors = require("cors");
 const port = process.env.PORT || 3001;
 
-app.use(cors({ origin: "https://nexatech.co.za" }));
+app.use(cors({ origin: "https://codespere.co.za" }));
 app.use(bodyParser.json());
 
 app.get("/test", (req, res) => {
@@ -33,11 +33,11 @@ app.post(
     // Data from the request
     const { name, email, subject, message } = req.body;
 
-    // Message to send to Nexatech email
+    // Message to send to Codespere email
     const htmlMsg = `
     <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.5; max-width: 600px; margin: auto; padding: 15px; background-color: #fafafa;">
       <div style="text-align: center; margin-bottom: 15px;">
-        <img src="https://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
+        <img src="https://codespere.co.za/images/codespere_logo.png" alt="Codespere Logo" style="width: 80px; margin-bottom: 10px;">
       </div>
       <h1 style="color: #004080; text-align: center; margin-bottom: 15px;">New Request</h1>
             <p style="font-size: 1rem; margin: 8px 0;"><strong>Subject:</strong> ${subject}</p>
@@ -48,17 +48,17 @@ app.post(
       <hr style="border: none; border-top: 1px solid #ddd; margin: 15px 0;">
       <p style="font-size: 0.85rem; color: #555; text-align: center;">
         This request was made from your website: 
-        <a href="https://www.nexatech.co.za" style="color: #007bff; text-decoration: none;">nexatech.co.za</a>
+        <a href="https://www.codespere.co.za" style="color: #007bff; text-decoration: none;">codespere.co.za</a>
       </p>
       <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 10px;">
-        © ${new Date().getFullYear()} Nexatech | All rights reserved.
+        © ${new Date().getFullYear()} Codespere | All rights reserved.
       </p>
     </div>`;
 
     const nexatechMessage = `
     <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.5; max-width: 600px; margin: auto; padding: 15px; background-color: #fafafa;">
       <div style="text-align: center; margin-bottom: 15px;">
-        <img src="https://nexatech.co.za/images/nexatech_logo.png" alt="Nexatech Logo" style="width: 80px; margin-bottom: 10px;">
+        <img src="https://codespere.co.za/images/codespere_logo.png" alt="Codespere Logo" style="width: 80px; margin-bottom: 10px;">
       </div>
       <h1 style="color: #004080; text-align: center; margin-bottom: 15px;">Thank You for Reaching Out!</h1>
       <p style="font-size: 1rem; margin: 8px 0; text-align: justify;">
@@ -71,14 +71,14 @@ app.post(
         In the meantime, feel free to explore our website for more information about our services.
       </p>
       <div style="text-align: center; margin: 15px 0;">
-        <a href="https://www.nexatech.co.za" style="background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 15px; border-radius: 5px; font-size: 0.95rem;">Visit Our Website</a>
+        <a href="https://www.codespere.co.za" style="background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 15px; border-radius: 5px; font-size: 0.95rem;">Visit Our Website</a>
       </div>
       <p style="font-size: 1rem; margin: 8px 0; text-align: justify;">
-        Thank you for choosing Nexatech.
+        Thank you for choosing Codespere.
       </p>
       <p style="font-size: 1rem; margin: 8px 0; text-align: justify;">
         <strong>Best regards,</strong><br>
-        The Nexatech Team
+        The Codespere Team
       </p>
       <hr style="border: none; border-top: 1px solid #ddd; margin: 15px 0;">
       <div style="text-align: center; margin: 10px 0;">
@@ -96,7 +96,7 @@ app.post(
         </a>
       </div>
       <p style="font-size: 0.85rem; color: #555; text-align: center; margin-top: 10px;">
-        © ${new Date().getFullYear()} Nexatech | All rights reserved.
+        © ${new Date().getFullYear()} Codespere | All rights reserved.
       </p>
     </div>`;
 
@@ -115,17 +115,17 @@ app.post(
     });
 
     try {
-      // Transport nodemailer function to send email to Nexatech email
+      // Transport nodemailer function to send email to Codespere email
       await transporter.sendMail({
-        from: `Nexatech Website <info@nexatech.co.za>`,
-        to: "info@nexatech.co.za, nigel@nexatech.co.za, siya@nexatech.co.za, prosper@nexatech.co.za",
+        from: `Codespere Website <info@codespere.co.za>`,
+        to: "info@codespere.co.za, nigel@codespere.co.za, siya@codespere.co.za, prosper@codespere.co.za",
         subject: subject,
         html: htmlMsg,
       });
 
       // Transport nodemailer function to send auto reply email to user
       await transporter.sendMail({
-        from: `Nexatech <info@nexatech.co.za>`,
+        from: `Codespere <info@codespere.co.za>`,
         to: email,
         subject: "Message Received",
         html: nexatechMessage,

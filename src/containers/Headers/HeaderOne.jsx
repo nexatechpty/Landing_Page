@@ -28,7 +28,7 @@ const HeaderOne = () => (
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
           <div className="col">
-            <Logo image="images/nexatech_logo.png" />
+            <Logo image="images/codespere_logo.png" />
           </div>
           <InfoMedia
             className="header-media col-auto"
@@ -40,7 +40,7 @@ const HeaderOne = () => (
             className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
             title="Mail Us For Support"
-            info={<a href="mailto:info@example.com">info@nexatech.co.za</a>}
+            info={<a href="mailto:info@example.com">info@codespere.co.za</a>}
           />
           <InfoMedia
             className="header-media col-auto d-none d-xl-flex"

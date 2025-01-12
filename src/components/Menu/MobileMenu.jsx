@@ -44,7 +44,7 @@ const MobileMenu = () => {
             <i className="fal fa-times"></i>
           </button>
           <div className="mobile-logo">
-            {<Logo image="images/nexatech_logo.png" />}
+            {<Logo image="images/codespere_logo.png" />}
           </div>
           <div className="vs-mobile-menu">
             <ul>

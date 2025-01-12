@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 const SEO = ({ title }) => {
   return (
     <Helmet>
-      <title>NexaTech - IT Solution &#38; Software Solutions - {title}</title>
+      <title>Codespere - IT Solution &#38; Software Solutions - {title}</title>
     </Helmet>
   );
 };
